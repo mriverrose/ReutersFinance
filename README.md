@@ -20,4 +20,5 @@ Holds the `.csv` file we generate in [`CreateDataframeFromDatabase.ipynb`](https
 ### [CalculateRatio.ipynb](https://github.com/mriverrose/ReutersFinance/blob/master/CalculateRatio.ipynb)
 `CalculateRatio` class for easy inputting of numerator and denominator. Use `df.fin_data_name.unique()` to get a list of all the financial data types avaiable for analyzing. 
 
+--------
 You may contact me at `mriverrose@gmail.com`.
