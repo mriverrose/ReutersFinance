@@ -12,7 +12,7 @@ Select the database credentials in [`database_operations.py`](https://github.com
 ### [reuters](https://github.com/mriverrose/ReutersFinance/tree/master/reuters)
 - [`scraper.py`](https://github.com/mriverrose/ReutersFinance/blob/master/reuters/scraper.py) is the `Scraper` class where you can decide how the scraper will do its job. 
 - [`reuters_functions.py`](https://github.com/mriverrose/ReutersFinance/blob/master/reuters/reuters_functions.py) has the `BuildUrl` class that pieces together the Reuters url we want to scrape. Depending on the ticker, you might need to add a method that changes the RIC code in the url that comes after the ticker. In our case, we are only using NASDAQ-100 tickers which all have a `.O` RIC code.
-- [`main.py`](https://github.com/mriverrose/ReutersFinance/blob/master/reuters/main.py) is the script we execute from the command line to generate all our data. This is where you set the list of desired tickers as well as which statement-types and period you want to scrape data from. 
+- [`main.py`](https://github.com/mriverrose/ReutersFinance/blob/master/reuters/main.py) is the script we execute from the command line to generate all our data. This is where you set the list of desired tickers as well as which statements type and period you want to scrape data from. 
 
 ### [tables](https://github.com/mriverrose/ReutersFinance/tree/master/tables)
 Holds the `.csv` file we generate in [`CreateDataframeFromDatabase.ipynb`](https://github.com/mriverrose/ReutersFinance/blob/master/CreateDataframeFromDatabase.ipynb).
